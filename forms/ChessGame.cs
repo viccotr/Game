@@ -49,7 +49,10 @@ namespace ChessGame
                             if (WorkWithBoard.MoveOrFight(tiles, Selected, now))
                             {                                
                                 history.Add(new History(Selected, now));
-                                
+
+                                //transorm pawn to queen
+                                tiles[now.X, now.Y].Transform();
+
                                 tbGameLog.Text += "\r\n" + history[history.Count - 1].ToString();
 
                                 ChangePlayer();

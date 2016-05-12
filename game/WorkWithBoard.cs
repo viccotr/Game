@@ -164,9 +164,6 @@ namespace ChessGame
                         }
                     }
                 }
-                //transorm pawn to queen
-                if (tilesVal[toVal.X, toVal.Y].FigureOnTile != null)
-                    tilesVal[toVal.X, toVal.Y].Transform();
             }
 
             //short castling to white

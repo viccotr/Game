@@ -9,3 +9,14 @@ E:\прога\chess another\ChessGame\obj\Debug\ChessGame.Transform.resources
 E:\прога\chess another\ChessGame\obj\Debug\ChessGame.csproj.GenerateResource.Cache
 E:\прога\chess another\ChessGame\obj\Debug\ChessGame.exe
 E:\прога\chess another\ChessGame\obj\Debug\ChessGame.pdb
+E:\прога\ChessGame\bin\Debug\ChessGame.exe.config
+E:\прога\ChessGame\obj\Debug\ChessGame.exe
+E:\прога\ChessGame\obj\Debug\ChessGame.pdb
+E:\прога\ChessGame\bin\Debug\ChessGame.exe
+E:\прога\ChessGame\bin\Debug\ChessGame.pdb
+E:\прога\ChessGame\obj\Debug\ChessGame.csprojResolveAssemblyReference.cache
+E:\прога\ChessGame\obj\Debug\ChessGame.ChessGame.resources
+E:\прога\ChessGame\obj\Debug\ChessGame.Properties.Resources.resources
+E:\прога\ChessGame\obj\Debug\ChessGame.Setings.resources
+E:\прога\ChessGame\obj\Debug\ChessGame.Transform.resources
+E:\прога\ChessGame\obj\Debug\ChessGame.csproj.GenerateResource.Cache
