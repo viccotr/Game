@@ -20,7 +20,7 @@ namespace ChessGame
 4 - long castle for white
 5 - short castle for black
 6 - long castle for black
-7 - белые могут взять на проходе черную фигуру
+7 - en passant
     */
         //this tile selected by user
         public bool Selected { get; set; }
@@ -207,6 +207,47 @@ namespace ChessGame
                         t.ShowDialog();
 
                         switch(Players.TransformTo)
+                        {
+                            case 0:
+                                {
+                                    FigureOnTile = new QueenFigure(X, Y, FigureOnTile.ColorIsWhite);
+                                    break;
+                                }
+                            case 1:
+                                {
+                                    FigureOnTile = new RockFigure(X, Y, FigureOnTile.ColorIsWhite);
+                                    break;
+                                }
+                            case 2:
+                                {
+                                    FigureOnTile = new BishopFigure(X, Y, FigureOnTile.ColorIsWhite);
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    FigureOnTile = new HorseFigure(X, Y, FigureOnTile.ColorIsWhite);
+                                    break;
+                                }
+                            default:
+                                {
+                                    FigureOnTile = new QueenFigure(X, Y, FigureOnTile.ColorIsWhite);
+                                    break;
+                                }
+                        }
+                    }
+                }
+            }
+        }
+
+        public void Transform(byte index)
+        {
+            if (FigureOnTile != null)
+            {
+                if (FigureOnTile.Type == "pawn")
+                {
+                    if (Y == 0 || Y / WorkWithBoard.TILESIZE == 7)
+                    {
+                        switch (index)
                         {
                             case 0:
                                 {

@@ -191,10 +191,13 @@ namespace ChessGame
             foreach(History h in history)
             {
                 if(h != null)
-                {
-                    firstPlayerMove = !firstPlayerMove;
+                {                    
                     tiles[h.from.X, h.from.Y].FigureOnTile.AllVarToMove(tiles);
-                    WorkWithBoard.MoveOrFight(tiles, h.from, h.to);
+                    if(WorkWithBoard.MoveOrFight(tiles, h.from, h.to))
+                    {
+                        firstPlayerMove = !firstPlayerMove;
+                        tiles[h.to.X, h.to.Y].Transform(0);
+                    }
                 }
             }
 
