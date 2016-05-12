@@ -131,17 +131,7 @@ namespace ChessGame
                         allvar[X / WorkWithBoard.TILESIZE - 1, Y / WorkWithBoard.TILESIZE + 1] = 7;
                     }
                 }
-                if (FirstMove)
-                {
-                    if (Y / WorkWithBoard.TILESIZE + 2 < 8)
-                    {
-                        if (cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE + 1].Move == 0 || cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE + 1].Move == 2)
-                        {
-                            cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE + 2].Move = 0;
-                            allvar[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE + 2] = 0;
-                        }                        
-                    }
-                }
+
                 if (X / WorkWithBoard.TILESIZE + 1 < 8 && Y / WorkWithBoard.TILESIZE + 1 < 8)//white firth right side
                 {
                     if (cellBoard[X / WorkWithBoard.TILESIZE + 1, Y / WorkWithBoard.TILESIZE + 1].FigureOnTile != null)
@@ -164,11 +154,21 @@ namespace ChessGame
                         }
                     }
                 }
-                if (X / WorkWithBoard.TILESIZE >= 0 && Y / WorkWithBoard.TILESIZE + 1 < 8)
+                if (Y / WorkWithBoard.TILESIZE + 1 < 8)
                 {
                     if (cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE + 1].FigureOnTile != null)
                     {
                         cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE + 1].Move = 0;
+                        allvar[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE + 1] = 0;
+                    }
+                }
+                
+                if (Y / WorkWithBoard.TILESIZE + 2 < 8)
+                {
+                    if (cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE + 2].FigureOnTile != null)
+                    {
+                        cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE + 2].Move = 0;
+                        allvar[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE + 2] = 0;
                     }
                 }
             }
@@ -189,17 +189,6 @@ namespace ChessGame
                     }
                 }
 
-                if (FirstMove)//first move on two tiles
-                {
-                    if (Y / 75 - 2 >= 0)
-                    {
-                        if (cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE - 1].Move == 0 || cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE - 1].Move == 2)
-                        {
-                            cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE - 2].Move = 0;
-                            allvar[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE - 2] = 0;
-                        }
-                    }
-                }
                 if (X / WorkWithBoard.TILESIZE + 1 < 8 && Y / WorkWithBoard.TILESIZE - 1 >= 0)//black firth right side
                 {
                     if (cellBoard[X / WorkWithBoard.TILESIZE + 1, Y / WorkWithBoard.TILESIZE - 1].FigureOnTile != null)
@@ -227,6 +216,16 @@ namespace ChessGame
                     if (cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE - 1].FigureOnTile != null)
                     {
                         cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE - 1].Move = 0;
+                        allvar[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE - 1] = 0;
+                    }
+                }
+                
+                if (Y / WorkWithBoard.TILESIZE - 2 >= 0)
+                {
+                    if (cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE - 2].FigureOnTile != null)
+                    {
+                        cellBoard[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE - 2].Move = 0;
+                        allvar[X / WorkWithBoard.TILESIZE, Y / WorkWithBoard.TILESIZE - 2] = 0;
                     }
                 }
             }
