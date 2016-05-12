@@ -1,0 +1,28 @@
+C:\Viktor\c#\по Дейтелу\chess another\chess another\bin\Debug\chess another.exe.config
+C:\Viktor\c#\по Дейтелу\chess another\chess another\bin\Debug\chess another.exe
+C:\Viktor\c#\по Дейтелу\chess another\chess another\bin\Debug\chess another.pdb
+C:\Viktor\c#\по Дейтелу\chess another\chess another\obj\Debug\chess another.csprojResolveAssemblyReference.cache
+C:\Viktor\c#\по Дейтелу\chess another\chess another\obj\Debug\chess_another.ChessGame.resources
+C:\Viktor\c#\по Дейтелу\chess another\chess another\obj\Debug\chess_another.Properties.Resources.resources
+C:\Viktor\c#\по Дейтелу\chess another\chess another\obj\Debug\chess another.csproj.GenerateResource.Cache
+C:\Viktor\c#\по Дейтелу\chess another\chess another\obj\Debug\chess another.exe
+C:\Viktor\c#\по Дейтелу\chess another\chess another\obj\Debug\chess another.pdb
+C:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\bin\Debug\chess another.exe.config
+C:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess another.exe
+C:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess another.pdb
+C:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess another.csprojResolveAssemblyReference.cache
+C:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess_another.ChessGame.resources
+C:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess_another.Properties.Resources.resources
+C:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess another.csproj.GenerateResource.Cache
+C:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\bin\Debug\chess another.exe
+C:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\bin\Debug\chess another.pdb
+E:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\bin\Debug\chess another.exe.config
+E:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess another.exe
+E:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess another.pdb
+E:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\bin\Debug\chess another.exe
+E:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\bin\Debug\chess another.pdb
+E:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess another.csprojResolveAssemblyReference.cache
+E:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess_another.ChessGame.resources
+E:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess_another.Properties.Resources.resources
+E:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess_another.Setings.resources
+E:\Viktor\c#\по Дейтелу\шахматы\chess another\chess another\obj\Debug\chess another.csproj.GenerateResource.Cache
